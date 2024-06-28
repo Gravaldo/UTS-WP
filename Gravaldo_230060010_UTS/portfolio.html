@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - XIAOMI</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        /* Sample CSS styling for portfolio page */
+        .portfolio-section {
+            padding: 40px;
+            background-color: #e9ecef;
+        }
+
+        .portfolio-content {
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .portfolio-content h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .project {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .project img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 15px;
+        }
+
+        .project h3 {
+            font-size: 22px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .project p {
+            line-height: 1.6;
+            color: #666;
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .project-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="XIAOMI Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="portfolio-section">
+        <div class="portfolio-content">
+            <h2>Our Projects</h2>
+            <div class="project-grid">
+                <div class="project">
+                    <img src="images/project1.png" alt="Project 1">
+                    <h3>Smart Home Solutions</h3>
+                    <p>Developing innovative smart home systems that enhance convenience and security.</p>
+                </div>
+                <div class="project">
+                    <img src="images/project2.jpg" alt="Project 2">
+                    <h3>5G Technology</h3>
+                    <p>Leading the advancement of 5G technology to provide faster and more reliable connectivity.</p>
+                </div>
+                <div class="project">
+                    <img src="images/project3.jpeg" alt="Project 3">
+                    <h3>Wearable Devices</h3>
+                    <p>Creating state-of-the-art wearable devices to monitor health and fitness.</p>
+                </div>
+                <div class="project">
+                    <img src="images/project4.jpeg" alt="Project 4">
+                    <h3>Electric Vehicles</h3>
+                    <p>Innovating in the field of electric vehicles to promote sustainable transportation solutions.</p>
+                </div>
+                <div class="project">
+                    <img src="images/project5.webp" alt="Project 5">
+                    <h3>AI and Machine Learning</h3>
+                    <p>Utilizing AI and machine learning to develop intelligent systems and applications.</p>
+                </div>
+                <div class="project">
+                    <img src="images/project6.jpg" alt="Project 6">
+                    <h3>Smartphones</h3>
+                    <p>Designing cutting-edge smartphones with advanced features and user-friendly interfaces.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 XIAOMI. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

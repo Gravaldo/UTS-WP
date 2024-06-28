@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - XIAOMI</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+
+        .about-section {
+            padding: 40px;
+            background-color: #f2f2f2;
+        }
+
+        .about-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px; /* Custom grid gap */
+            margin-top: 20px;
+        }
+
+        .section {
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .section h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .section p {
+            line-height: 1.6;
+            color: #666;
+        }
+
+        /* Grid layout for values list */
+        .values {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+        }
+
+        .values-item {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .values-item span {
+            font-weight: bold;
+            color: #333;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .about-content {
+                grid-template-columns: 1fr;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="XIAOMI Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="about-section">
+        <div class="container">
+            <h2 class="section-title">About Us</h2>
+            <p>We are dedicated to bringing cutting-edge technology to our customers.</p>
+            <div class="about-content">
+                <div class="section vision">
+                    <h3>Our Vision</h3>
+                    <p>To be the global leader in innovative and sustainable technology solutions.</p>
+                </div>
+                <div class="section mission">
+                    <h3>Our Mission</h3>
+                    <p>To empower individuals and businesses with innovative technology that enhances their lives and drives sustainable progress.</p>
+                </div>
+                <div class="section values">
+                    <h3>Our Values</h3>
+                    <div class="values-item"><span>Excellence:</span> Striving for the highest quality in everything we do.</div>
+                    <div class="values-item"><span>Innovation:</span> Continuously pushing boundaries to create groundbreaking solutions.</div>
+                    <div class="values-item"><span>Integrity:</span> Acting ethically and responsibly in all our interactions.</div>
+                    <div class="values-item"><span>Customer Focus:</span> Putting our customers' needs first and exceeding their expectations.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 XIAOMI. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
